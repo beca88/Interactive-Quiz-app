@@ -29,6 +29,7 @@ A full-stack interactive quiz application featuring a dynamic web user interface
 
 ## 📂 Project Structure
 
+```text
 Interactive-Quiz/
 ├── backend/                  # ASP.NET Core Web API Project
 │   ├── Controllers/          # API Endpoints (QuestionsController)
