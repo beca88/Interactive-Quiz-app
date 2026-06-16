@@ -26,7 +26,6 @@ A full-stack interactive quiz application featuring a dynamic web user interface
 - **Documentation:** Swagger UI (Swashbuckle)
 
 ---
-
 ## 📂 Project Structure
 
 ```text
