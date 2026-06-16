@@ -43,7 +43,7 @@ Interactive-Quiz/
 │   │   └── main.jsx          # React Client Context Root
 │   └── package.json          # Frontend Dependency Trees
 └── .gitignore                # Production & Build Target Exclusion Matrix
-
+```
 ## 🔧 Quick Start
 
 ### Backend API
