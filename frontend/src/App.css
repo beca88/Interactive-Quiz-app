@@ -1,0 +1,120 @@
+/* Center loading and error messages */
+.quiz-loading {
+  text-align: center;
+  margin-top: 50px;
+}
+.quiz-error {
+  text-align: center;
+  margin-top: 50px;
+  color: #ab1121;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
+
+/* Main quiz card container */
+.quiz-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header tracking stats */
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #666666;
+}
+
+.quiz-question {
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+.result-container {
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+/* Options layout */
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Base style for option buttons */
+.option-button {
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: 2px solid #e0e0e0;
+  background: #fafafa;
+  text-align: left;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.option-button:not(:disabled) {
+  cursor: pointer;
+}
+
+.option-button:not(:disabled):hover {
+  background: #f0f0f0;
+  border-color: #cccccc;
+}
+
+/* Feedback states */
+.option-button.correct {
+  background: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.option-button.incorrect {
+  background: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+/* Feedback message and next button layout */
+.feedback-container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.feedback-text {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.feedback-text.correct { color: #155724; }
+.feedback-text.incorrect { color: #721c24; }
+
+.next-button, .restart-button {
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.score {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1c6d0d;
+} 
+.next-button { background: #28a745; }
+.restart-button { background: #007bff; padding: 12px 24px; }
